@@ -24,7 +24,7 @@ for(var i = 0; i < half; i++){                      // loop through first half a
         solution += parseInt(input.charAt(i))
     }
 }
-for(var i = half; i < len; i++){                      // loop through second half and compare with halfway around
+for(var i = half; i < len; i++){                    // loop through second half and compare with halfway around
     if(input.charAt(i)===input.charAt(i-half)){
         solution += parseInt(input.charAt(i))
     }
